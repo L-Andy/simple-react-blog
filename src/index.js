@@ -5,7 +5,7 @@ import 'assets/css/w3.css'
 import Theme from 'theme/index';
 import { ThemeProvider } from 'styled-components';
 
-ReactDOM.render(
+ReactDOM.hydrate(
   <React.StrictMode>
     <ThemeProvider theme={Theme}>
       <App />
